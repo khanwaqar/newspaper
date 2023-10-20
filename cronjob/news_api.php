@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set("display_errors", E_ALL);
  
 
-$url = "https://newsdata.io/api/1/news?apikey=pub_31245ee5c14f7a63bcb973288ccce5537f674&language=en";
+$url = "https://newsdata.io/api/1/news?apikey=pub_31245ee5c14f7a63bcb973288ccce5537f674&language=en&country=pk";
 
 $result = getCurlRequest($url);
 processData($result);
